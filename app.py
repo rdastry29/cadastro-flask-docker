@@ -42,6 +42,3 @@ def get_users():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
-
-# ERRO PROPOSITAL PARA TESTE DE PULL REQUEST
-print("Esse é um erro de teste"  # Parêntese não fechado
