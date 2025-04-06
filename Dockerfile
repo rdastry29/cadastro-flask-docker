@@ -10,8 +10,8 @@ COPY . .
 # Instalar dependências
 RUN pip install flask
 
-# Expor porta 5000
-EXPOSE 5000
+# Expor porta 5001
+EXPOSE 5001
 
 # Comando para rodar a aplicação
 CMD ["python", "app.py"]
